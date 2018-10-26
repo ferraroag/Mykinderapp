@@ -1,0 +1,79 @@
+body{
+	background: rgb(151,249,212);
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+	font-size: 30px;
+	font-family: Indie Flower;
+}
+h1{
+	font-family: Mali;
+	text-align: center;
+	color: orange;
+	font-weight: lighter;
+	font-size: 50px;
+}
+h2 {
+	font-family: Mali;
+	text-align: center;
+	color: pink;
+	text-shadow: 1px 1px 5px black;
+	font-weight: lighter;
+	font-size: 50px;
+}
+a {
+	color: purple;
+}
+a:hover {
+	text-decoration: none;
+	color: green;
+}	
+
+#banner{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/1321698/pexels-photo-1321698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 80px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+#footer{
+  padding: 30px;
+  background: rgb(250, 195, 226);
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#footer a {
+  color: white;
+  font-size: 35px;
+  text-shadow: 1px 1px 5px black;
+  text-align-last: center;
+}
+#footer a:hover {
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#footer ul {
+ display: flex;
+}
+#footer ul li {
+ list-style-type: none;
+ padding: 40px;
+ font-size: 40px;
+}
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
